@@ -1,11 +1,13 @@
 ===============================
 DOCKER LAB - FULL EXECUTION
-===============================
-
---------------------------------
 Task 0: Install Docker & Run Basic Commands
 --------------------------------
 
+# Option 1: Using setup.sh (FAST)
+chmod +x setup.sh
+./setup.sh
+
+# Option 2: Manual Installation
 sudo apt update
 sudo apt install docker.io git -y
 sudo systemctl start docker
