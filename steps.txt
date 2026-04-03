@@ -57,6 +57,9 @@ Task 2: Create Docker Container using Dockerfile
 
 # Create HTML file
 nano index.html
+#paste
+<h1>Hello from Rupsika Container 🚀</h1>
+
 
 # Create Dockerfile
 nano Dockerfile
