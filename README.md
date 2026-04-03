@@ -1,19 +1,24 @@
-# Docker Lab Exam Steps
+# Docker Lab Exam Commands
 
 ## Install Docker
 sudo apt update
 sudo apt install docker.io git -y
 sudo systemctl start docker
 
-## Clone Repo
-git clone https://github.com/Rupsika/lab4docker.git
-cd lab4docker
+## Check Docker
+docker --version
+docker run hello-world
+
+## Basic Docker Commands
+docker pull nginx
+docker images
+docker run -d -p 8080:80 nginx
+docker ps
+docker stop <container_id>
+docker rm <container_id>
 
 ## Build Docker Image
-sudo docker build -t lab4 .
+docker build -t lab4 .
 
 ## Run Container
-sudo docker run -d -p 3000:3000 lab4
-
-## Open in Browser
-http://localhost:3000
+docker run -d -p 3000:3000 lab4
