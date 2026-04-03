@@ -54,7 +54,9 @@ docker rm <container_id>
 
 --------------------------------
 Task 2: Create Docker Container using Dockerfile
---------------------------------
+
+# Create HTML file
+nano index.html
 
 # Create Dockerfile
 nano Dockerfile
