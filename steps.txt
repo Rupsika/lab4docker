@@ -21,6 +21,12 @@ docker pull nginx
 docker images
 docker run -d -p 8080:80 nginx
 docker ps
+
+🔹 Check browser
+http://localhost:8080
+
+✔ You should see nginx page
+
 docker stop <container_id>
 docker rm <container_id>
 
